@@ -1,5 +1,4 @@
 import json
-import re
 from collections import defaultdict
 import spacy
 from nltk.stem import SnowballStemmer
@@ -167,7 +166,7 @@ class IndexWeb:
         Sortie :
         - defaultdict: Index positionnel construit pour le champ spécifié.
         """
-        
+
         # Initialiser l'index positionnel
         positional_index = defaultdict(lambda: defaultdict(list))
 

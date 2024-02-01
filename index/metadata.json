@@ -1,0 +1,15 @@
+{
+  "num_documents": 4,
+  "total_num_tokens": 2747,
+  "total_tokens_per_field": {
+    "title": 42,
+    "content": 2705,
+    "h1": 30
+  },
+  "avg_tokens_per_document": 686.75,
+  "avg_tokens_per_field_per_document": {
+    "title": 10.5,
+    "content": 676.25,
+    "h1": 7.5
+  }
+}

@@ -32,10 +32,10 @@ Ce code Python implémente une classe `IndexWeb` permettant de construire un ind
     $ python3 ./index/main.py
 
 3. **Résultats**:
-    Les informations statistiques calculées sont écrites dans un fichier metadata.json. De plus 4 types d'index sont créés
+    Les informations statistiques calculées sont écrites dans un fichier metadata.json. De plus 4 types d'index sont créés : 
     * index non positionnels avec stemmatisation 
     * index non positionnels sans stemmatisation
     * index positionnels avec stemmatisation 
     * index positionnels sans stemmatisation
 
-    Un index pour le titre, un index pour le contenu et un index pour la balise h1 sont créés pour chaque type d'index (On a donc au final 12 index créés).
+    Un index pour le titre, un index pour le contenu et un index pour la balise h1 sont créés pour chaque type d'index (on a donc au final 12 index créés).
